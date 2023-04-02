@@ -1,5 +1,5 @@
 <?php
-
+// updated
 namespace App\Controllers;
 use App\Models\crudmodel;
 
@@ -40,6 +40,7 @@ class crud extends BaseController
         $data['details']=$details->where('id',$id)->delete($id);
        
         return redirect('crud');
+
       
     }
     public function update()
